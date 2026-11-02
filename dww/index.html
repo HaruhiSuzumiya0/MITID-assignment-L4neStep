@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>L4neStep</title>
+  <!-- Les polices viennent de Google Fonts -->
+  <!-- les 2 preconnect c'est pour que les polices chargent un peu plus vite -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Le fond rose animé. Les div et span sont vides, tout le dessin est fait en CSS -->
+  <div id="bg">
+    <div class="rays"></div>   <!-- les bandes de lumière -->
+    <div class="grid"></div>   <!-- la grille de points -->
+    <div class="ring r1"></div> <!-- les 2 grands anneaux -->
+    <div class="ring r2"></div>
+    <span class="shape s1"></span> <!-- les 4 formes en verre -->
+    <span class="shape s2"></span>
+    <span class="shape s3"></span>
+    <span class="shape s4"></span>
+    <span class="spark k1"></span> <!-- les 5 étincelles -->
+    <span class="spark k2"></span>
+    <span class="spark k3"></span>
+    <span class="spark k4"></span>
+    <span class="spark k5"></span>
+  </div>
+
+  <!-- La scène : tout le jeu est dedans, et c'est elle qu'on agrandit ou rétrécit (dans main.js) -->
+  <div id="stage">
+    <!-- À gauche : le score et la précision (mis à jour par updateHud() dans game.js) -->
+    <div class="hud-left">
+      <div id="hud-score" class="hud-score">00000</div>
+      <div id="hud-acc" class="hud-acc">100.00%</div>
+    </div>
+    <!-- Au milieu : le terrain de jeu. Le canvas c'est là où les lanes et les notes sont dessinées -->
+    <div class="playfield metal">
+      <canvas id="game"></canvas>
+    </div>
+    <!-- À droite : le nom de la musique et l'aide pour recommencer -->
+    <div class="hud-right">
+      <div class="hud-title">Démo 128 BPM</div>
+      <div class="hud-artist">L4neStep</div>
+      <div class="hud-hint">Esc to restart</div>
+      <!-- Pour brancher la manette Arduino (le code est dans serial.js) -->
+      <button id="controller-button" class="controller-button">Connect controller</button>
+    </div>
+
+    <!-- Avant la partie -->
+    <!-- (caché par main.js dès qu'on appuie sur une touche) -->
+    <p id="overlay-start" class="start-text">Press any button to start</p>
+
+    <!-- Après la partie -->
+    <!-- "hidden" = caché au début, main.js l'affiche quand la musique est finie
+         et remplit les chiffres avec les vrais résultats -->
+    <div id="overlay-end" class="overlay metal" hidden>
+      <div id="end-rank" class="end-rank">S+</div>
+      <div id="end-fc" class="full-combo chrome-text">Full Combo!</div>
+      <div id="end-score" class="end-score">00000</div>
+      <div class="end-counts">
+        <span>Perfect <b id="end-perfect">0</b></span>
+        <span>Okay <b id="end-okay">0</b></span>
+        <span>Miss <b id="end-miss">0</b></span>
+      </div>
+      <div id="end-acc" class="end-acc">Accuracy 00.00%</div>
+      <p class="press blink">Press any button to replay</p>
+    </div>
+  </div>
+
+  <!-- game.js en premier parce que main.js utilise des fonctions qui sont dedans
+       (startGame, drawLanes...). Si on inverse, ça plante -->
+  <script src="game.js"></script>
+  <script src="main.js"></script>
+  <!-- serial.js en dernier, il utilise pressLane (game.js) et anyButton (main.js) -->
+  <script src="serial.js"></script>
+</body>
+</html>
