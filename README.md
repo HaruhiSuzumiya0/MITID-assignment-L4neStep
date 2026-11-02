@@ -1,5 +1,13 @@
 # L4neStep (jeu de rythme en 4 lane)
 
+<picture>
+    <img
+        src="images/title.png" 
+        alt="title" 
+        height="300" 
+    />
+</picture>
+
 Voici la table des matières de mon rendu
 - [Démarche et choix techniques](#Démarche-et-choix-techniques)
 - [Code de la partie électronique↗](cwiot/Projet_manette.ino)
