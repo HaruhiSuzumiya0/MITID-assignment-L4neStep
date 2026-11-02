@@ -8,7 +8,7 @@
     />
 </picture>
 
-Voici la table des matières de mon rendu
+## Table des matières
 - [Démarche et choix techniques](#Démarche-et-choix-techniques)
 - [Code de la partie électronique↗](cwiot/Projet_manette.ino)
 - [schéma électronique](#Schéma-électronique)
