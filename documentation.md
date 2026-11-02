@@ -14,7 +14,7 @@ Voici la table des matières de mon rendu
 ## schematic view
 <picture>
     <img
-        src="images/schematic.jpg" 
+        src="images/schematic.png" 
         alt="schematic view" 
         height="360" 
         width="640" 
@@ -27,8 +27,8 @@ This prototype uses an Arduino UNO, along with 4 push buttons in a pull-down con
 
 <picture>
   <img
-    src="images/Moodboard.jpg"
-    alt="schematic view" 
+    src="images/Moodboard.png"
+    alt="moodboard" 
     height="360" 
     width="640" />
 </picture>
