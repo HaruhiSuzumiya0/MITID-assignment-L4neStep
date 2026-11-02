@@ -21,7 +21,7 @@ Voici la table des matières de mon rendu
     />
 </picture>
 
-This prototype uses an Arduino UNO, along with 4 push buttons in a pull-up configuration to save space.
+This prototype uses an Arduino UNO, along with 4 push buttons in a pull-up configuration to save space by using the internal resistance.
 
 ## Moodboard
 
