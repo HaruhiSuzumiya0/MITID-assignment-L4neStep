@@ -12,6 +12,7 @@ Voici la table des matières de mon rendu
 ## Démarche et choix techniques
 
 <ins>Mon investissement dans L4neStep</ins>
+
 Déjà, pourquoi ce nom ? « L4ne », c’est le mot lane avec un 4 à la place du « a », parce que c’est un jeu de rythme en 4 lanes. « Step », c’est une référence à StepMania, l’un des jeux de rythme les plus connus, où l’on joue aussi sur 4 lanes en suivant les notes qui défilent.
 
 Je me suis énormément investi dans ce projet, parce que pour une fois c’était un sujet qui me passionnait vraiment, comme toute cette majeure Management in Tech au final. Les jeux de rythme, c’est un genre que j’adore, et pouvoir en créer un avec ma propre manette, c’était le projet idéal pour moi. Je compte d’ailleurs le continuer après les cours, j'ai déjà des pistes d'amélioration.
