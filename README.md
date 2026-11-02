@@ -4,7 +4,7 @@
     <img
         src="images/title.png" 
         alt="title" 
-        height="300" 
+        width="1000" 
     />
 </picture>
 
