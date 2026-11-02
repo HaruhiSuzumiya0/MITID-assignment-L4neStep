@@ -29,7 +29,7 @@ L’idée : un jeu de rythme 4 lanes inspiré de CHUNITHM, IIDX, DDR, osu! mania
 La direction artistique : la moodboard et l’UI sur Figma, l’ambiance rose et argent métallique inspiré des jeux de rythme du débuts des années 2000.
 La manette : construite avec un Arduino Uno et 4 boutons, protocole d’une lettre par message serial (majuscule = appui, minuscule = relâchement).
 
-Comme ce projet me tenait à cœur, je n’ai pas voulu me limiter à ce qu’on voyait en cours. Dès le début de DWW, j'ai lu et vu énormément de documentation, de posts StackOverflow et de tutos YouTube JavaScript pour comprendre comment faire un jeu dans navigateur, la boucle de rendu, la gestion du temps, le son, la communication avec l’Arduino. C’est pour ça, par exemple, que le jeu utilise directement ctx (l’API Canvas), on n’avait pas encore eu le cours sur p5.js, et plutôt que d’attendre, je suis allé chercher comment faire par moi-même.
+Comme ce projet me tenait à cœur, je n’ai pas voulu me limiter à ce qu’on voyait en cours. Dès le début de DWW, j'ai lu et vu énormément de documentation, de posts StackOverflow (je pense sincèrement que cette plateforme est habitée par le diable) et de tutos YouTube JavaScript pour comprendre comment faire un jeu dans navigateur, la boucle de rendu, la gestion du temps, le son, la communication avec l’Arduino. C’est pour ça, par exemple, que le jeu utilise directement ctx (l’API Canvas), on n’avait pas encore eu le cours sur p5.js, et plutôt que d’attendre, je suis allé chercher comment faire par moi-même.
 
 <ins>Mon utilisation de l’IA</ins>
 
