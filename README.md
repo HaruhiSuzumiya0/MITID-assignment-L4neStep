@@ -65,15 +65,15 @@ Ce prototype utilise une carte Arduino UNO, ainsi que 4 boutons-poussoirs monté
 
 ## UI figma
 
-https://www.figma.com/design/NVvjfoBUzp5LUpfCwLDBOt/Project?node-id=13-62&t=NsxD2xvsFILvnJrH-1
-
 <picture>
   <img
-    src="images/figmaUi.png"
+    src="images/figmaUI.png"
     alt="UI" 
     height="360" 
     width="640" />
 </picture>
+
+https://www.figma.com/design/NVvjfoBUzp5LUpfCwLDBOt/Project?node-id=13-62&t=NsxD2xvsFILvnJrH-1
 
 ## Partie DWW
 Voici une preview de mon projet. 
