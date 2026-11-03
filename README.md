@@ -11,7 +11,7 @@
 ## Table des matières
 - [Démarche et choix techniques](#Démarche-et-choix-techniques)
 - [Code de la partie électronique↗](cwiot/Projet_manette.ino)
-- [schéma électronique](#Schéma-électronique)
+- [Schéma électronique](#Schéma-électronique)
 - [Moodboard](#Moodboard)
 - [UI figma](#UI-figma)
 - [Code de la partie web↗](dww/index.html)
