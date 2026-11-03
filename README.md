@@ -43,7 +43,7 @@ Quand j’ai commencé L4neStep, on n’avait pas encore eu le cours sur p5.js, 
 
 <ins>Pourquoi la Web Audio API ?</ins>
 
-Dans un jeu de rythme, le plus important, c’est que les notes tombent exactement sur la musique. Une simple balise <audio> n’est pas assez précise, son temps se met à jour par à-coups, et les notes se décalent petit à petit. La Web Audio API fournit une horloge audio très précise, qui tient compte du temps que met le son à sortir des enceintes. Les notes restent donc calées sur ce qu’on entend vraiment.
+Dans un jeu de rythme, le plus important, c’est que les notes tombent exactement sur la musique. Une simple balise "<audio>" n’est pas assez précise, son temps se met à jour par à-coups, et les notes se décalent petit à petit. La Web Audio API fournit une horloge audio très précise, qui tient compte du temps que met le son à sortir des enceintes. Les notes restent donc calées sur ce qu’on entend vraiment.
 
 <ins>Pourquoi la Web Serial API ?</ins>
 
